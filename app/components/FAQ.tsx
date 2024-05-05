@@ -10,7 +10,7 @@ const itemVariants: Variants = {
     closed: { opacity: 0, height: 0, transition: { duration: 0.2 } },
 };
 
-const FAQ = ({ question, answer }) => {
+const FAQ: React.FC<{ question: string; answer: string }> = ({ question, answer }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleFAQ = () => setIsOpen(!isOpen);
