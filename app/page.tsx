@@ -2,7 +2,6 @@
 
 import Spline from '@splinetool/react-spline'
 import Image from 'next/image'
-import Link from 'next/link'
 import infoCards from './libs/InfoCards'
 import { motion } from "framer-motion";
 import Navbar from './components/Navbar'
